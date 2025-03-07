@@ -21,6 +21,10 @@ public class Wallet {
         return money;
     }
 
+    public void setCash(double value){
+        this.money = value;
+    }
+
     public void addMonthlyIncome() {
         money += 100.0;
     }
